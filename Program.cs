@@ -25,6 +25,14 @@
         {
             return new liczbaZ(a.re - b.re, a.im - b.im);
         }
+        public static liczbaZ operator *(liczbaZ a, liczbaZ b)
+        {
+            return new liczbaZ(a.re * b.re, a.im * b.im);
+        }
+        public static liczbaZ operator /(liczbaZ a, liczbaZ b)
+        {
+            return new liczbaZ(a.re / b.re, a.im / b.im);
+        }
 
     }
     internal class Program
@@ -39,6 +47,7 @@
             liczbaZ z3 = new liczbaZ(0,3);
             Console.WriteLine(z3);
             Console.WriteLine(z1 + z2) ;
+            //test
         }
     }
 }
