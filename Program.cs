@@ -29,10 +29,7 @@
         {
             return new liczbaZ(a.re * b.re, a.im * b.im);
         }
-        public static liczbaZ operator /(liczbaZ a, liczbaZ b)
-        {
-            return new liczbaZ(a.re / b.re, a.im / b.im);
-        }
+           //michal jacek tu byl
 
     }
     internal class Program
